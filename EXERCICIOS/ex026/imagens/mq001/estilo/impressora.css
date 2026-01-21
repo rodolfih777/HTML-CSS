@@ -12,6 +12,12 @@ html{
     line-height: 1.5em;
 }
 
-header{
+header > ul{
     display:none ;
+}
+
+article::after{
+    content: 'Este artigo foi impresso atraves do Dev RODOLFO';
+    
+    font-weight: bolder;
 }

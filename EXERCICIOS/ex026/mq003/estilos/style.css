@@ -21,7 +21,31 @@ img {
     height: 80px;
     cursor: pointer;
     transition: tranform 0.3 ease-in-out;
+    margin: 20px;
 }
+
+#sideMenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sideMenu ul li{
+    margin: 20px;
+}
+
+#sideMenu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*MENU ATIVO*/
+
+#sideMenu.active{
+    left: 0;
+}
+
+
 
 img:hover{
     transform: scale(1.2);}

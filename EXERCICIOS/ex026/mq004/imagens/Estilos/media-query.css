@@ -12,7 +12,49 @@ Grades telas: acima de 1200px
 */
 
 
-@media print {}
+@media print { /*IMPRESSAO*/
+  *{
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  body{
+    background-image: url(../back-print.jpg); /*DESNECESSARIO*/
+  }
+  
+    main{
+        border:2px solid black;
+    }
+
+    main::after{
+        content: "Essa impressao foi feita pelo Rodolfo, junto com professor Gustavo guanabara do canal curso em video. ";
+        text-decoration: underline;
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#print {
+        display: block;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
+}
 
 
 

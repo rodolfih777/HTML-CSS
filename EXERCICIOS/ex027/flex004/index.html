@@ -6,15 +6,19 @@
     <style>
         .container{
             background-color: black;
+
+            height: 300px;
+            align-items: center;
+
             display: flex;
-            flex-direction: column;
+            flex-flow: row nowrap;
+            justify-content:space-evenly;
         }
 
         .filho{
             background-color: lightblue;
-            text-align: center;
-            padding: 10px;
             border: 1px solid black;
+            text-align: center;
         }
 
         #a{ background-color: rgb(255, 0, 0);}
@@ -31,11 +35,11 @@
 </head>
 <body>
     <div class="container">
-        <div class="filho" id="a">Exemplo de bloco A</div>
-        <div class="filho" id="b">Exemplo de bloco B</div>
-        <div class="filho" id="c">Exemplo de bloco C</div>
-        <div class="filho" id="d">Exemplo de bloco D</div>
-        <div class="filho" id="e">Exemplo de bloco E</div>
+        <div class="filho" id="a">A</div>
+        <div class="filho" id="b">B</div>
+        <div class="filho" id="c">C</div>
+        <div class="filho" id="d">D</div>
+        <div class="filho" id="e">E</div>
     </div>
     
 </body>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+            background-color: black;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        .filho{
+            background-color: lightblue;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        #i1{ 
+            order: 0;
+            background-color: rgb(255, 0, 0);
+        }
+    
+
+        #i2{
+            order: -2;
+            background-color: rgb(255, 60, 60);
+        }
+
+        #i3{
+            order: 4;
+            background-color: rgb(253, 80, 80);
+        }
+
+        #i4{
+            order: 5 ;
+            background-color: rgb(255, 90, 90);
+        }
+         
+        #i5{ 
+            order: 2;
+            background-color: rgb(255, 110, 110);
+        }
+    </style>
+    <title>Aula sobre flexbox</title>
+</head>
+<body>
+    <div class="container">
+        <div class="filho" id="i1">A</div>
+        <div class="filho" id="i2">B</div>
+        <div class="filho" id="i3">C</div>
+        <div class="filho" id="i4">D</div>
+        <div class="filho" id="i5">E</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+            background-color: black;
+
+            display: flex;
+            flex-flow:row nowrap;
+            
+        }
+
+        .filho{
+            background-color: lightblue;
+            text-align: center;
+            border: 1px solid black;
+
+            flex-basis: 150px;
+        }
+
+        #a{ background-color: rgb(255, 0, 0);}
+
+        #b{background-color: rgb(255, 60, 60);}
+
+        #c{background-color: rgb(253, 80, 80);}
+
+        #d{background-color: rgb(255, 90, 90);}
+         
+        #e{background-color: rgb(255, 110, 110);}
+    </style>
+    <title>Aula sobre flexbox</title>
+</head>
+<body>
+    <div class="container">
+        <div class="filho" id="a">A outro conteudo</div>
+        <div class="filho" id="b">B espaço pequeno</div>
+        <div class="filho" id="c">C outro conteudo maior</div>
+        <div class="filho" id="d">D espaço</div>
+        <div class="filho" id="e">E outro conteudo maior ainda que vai ocupar um espaço maior</div>
+    </div>
+    
+</body>
+</html>

@@ -5,76 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teste</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    body {
-        background-color: rgb(98, 133, 163);
-    }
-
-    .cabecalho {
-        background-color: aqua;
-    }
-
-    h1 {
-        text-align: center;
-        text-shadow: 2px 2px 4px black;
-    }
-
-    .opcoes {
-        display: flex;
-        justify-content: center;
-        /* centraliza horizontalmente */
-        gap: 20px;
-        /* espaço entre os li */
-        list-style: none;
-        /* remove bolinhas */
-        padding: 30px;
-        gap: 200px;
-       
-        
-    }
-
-    .opcoes > li{
-        cursor: pointer;
-        width: 100px;
-        font-weight: bolder;
-        font-size: 20px;
-        text-shadow: 1px 1px 1px black;
-       
-    }
-
-    li :hover{
-        transform: scale(1.2);
-        color: #333;
-    }
-
-    
-</style>
 
 <body>
-    <div class="cabecalho">
-        <header>
-            <h1>Olá, Bem vindo ao meu portifolio</h1>
-        </header>
+
+    <header>
+        <div class="cabecalho">
+            <header>
+                <h1>Olá, Bem vindo ao meu portifolio</h1>
+            </header>
+            <ul class="opcoes">
+                <li class="sobre">sobre</li>
+                <li class="projetos">projetos</li>
+                <li class="redes">redes</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <div class="imagem-pdf">
+               <img src="img/Imagem do WhatsApp de 2025-06-22 à(s) 23.56.48_cdfec710.jpg" alt="imagem-rodolfo">
+            </div>
+        </article>
+
+        <section>
+            <div class="descricao">
+                <p>Sou uma pessoa dedicada, disciplinada e movida pela vontade constante de evoluir. Tenho compromisso com tudo o que faço e acredito que esforço, foco e persistência são essenciais para alcançar grandes resultados. Estou sempre disposto a aprender novas habilidades, enfrentar desafios e sair da zona de conforto para crescer tanto profissionalmente quanto pessoalmente.
+
+                    Valorizo a organização, a responsabilidade e o trabalho bem feito, buscando sempre entregar o meu melhor em cada projeto. Tenho facilidade para aprender, adaptação rápida a novas situações e uma mentalidade focada em evolução contínua. Acredito que o conhecimento é uma construção diária, e por isso mantenho uma postura aberta para adquirir experiências, desenvolver competências e aprimorar minhas capacidades constantemente.
+                    
+                    Meu objetivo é construir uma trajetória sólida, baseada em dedicação, disciplina e paixão pelo que faço, contribuindo de forma positiva em cada oportunidade que surgir.
+                    </p>
+            </div>
+        </section>
+    </main>
 
 
-        <ul class="opcoes">
-            <li class="sobre">sobre</li>
-            <li class="projetos">projetos</li>
-            <li class="redes">redes</li>
-        </ul>
-    </div>
 
 
 
-
-
+<footer>
+    <h2>portifolio criado como treinamento por "Jose Rodolfo"</h2>
+</footer>
 </body>
 
 </html>
